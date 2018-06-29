@@ -69,7 +69,7 @@ before_install: |
 install:
 - export PATH=$PWD/bin:$PATH
 - pip3 install pycparser  # py3.7 workaround for https://github.com/eliben/pycparser/issues/251
-- pip3 install https://github.com/jbarlow83/ruffus/archive/py37.zip#egg=ruffus-2.6.3
+- pip3 install https://github.com/jbarlow83/ruffus/archive/py37.zip
 - pip3 install .
 - pip3 install -r test_requirements.txt
 
