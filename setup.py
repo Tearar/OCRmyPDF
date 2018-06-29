@@ -255,7 +255,7 @@ setup(
                                   # block 5.1.0, broken wheels
         'python-xmp-toolkit >= 2, < 3',
         'reportlab >= 3.3.0',     # oldest released version with sane image handling
-        'ruffus == 2.6.3',        # pinned - ocrmypdf implements a 2.6.3 workaround
+        'ruffus >= 2.6.3',        # pinned - ocrmypdf implements a 2.6.3 workaround
     ],
     extras_require={
         'fitz': [],  # Backward compatibility
